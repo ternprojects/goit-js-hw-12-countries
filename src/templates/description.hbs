@@ -2,15 +2,15 @@
 <h1>{{name}}</h1>
 <ul>
   <li>
-    <h2>Capital: </h2>
-    <p>{{capital}}</p>
+    <h2>Capital:</h2>
+    <span>{{capital}}</span>
   </li>
   <li>
-    <h2>Population: </h2>
-    <p>{{population}}</p>
+   <h2>Population:</h2>
+   <span>{{population}}</span>
   </li>
   <li>
-    <h2>Languages: </h2>
+    <h2>Languages:</h2>
     <ul>
       {{#each languages}}
       <li>
@@ -20,5 +20,5 @@
     </ul>
   </li>
 </ul>
-<img src="{{flag}}" width="150" height="150">
+  <img src="{{flag}}" width="500" alt = {{name}}>
 {{/each}}
