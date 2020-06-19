@@ -1,2 +1,2 @@
 import './css/styles.css';
-import './js/newApi'
+import './js/searching.js';
