@@ -7,8 +7,8 @@ import refs from './refs.js';
 const options = {
   title: 'Too many matches found',
   text: 'Please, do a more specific query!',
-  width: '350px',
-  minHeight: '16px',
+  width: '450px',
+  minHeight: '12px',
   autoOpen: true,
   icon: true,
   closer: false,
